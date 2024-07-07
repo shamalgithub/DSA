@@ -1,6 +1,6 @@
 from typing import List 
 
-# the recursion is correct the logic is wrong for n-1 instance can correct for n 
+# correct recursion and logic 
 def findmax(array:List , i:int)->int:
     j = len(array)- i -1
     print("j" , j , "i" , i)
